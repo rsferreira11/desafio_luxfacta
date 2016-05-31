@@ -11,14 +11,6 @@
     <link href="{{ URL::asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.0/knockout-min.js"></script>
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout.mapping/2.3.4/knockout.mapping.js"></script>
-    <script type="text/javascript" src="{{ URL::asset('js/knockout.bindings.orderable.js') }}"></script>
-    @yield('extra-scripts')
-    <!-- /Scripts -->
-
   </head>
 
   <body>
@@ -50,6 +42,12 @@
       </div>
 
     </div><!-- /.container -->
-
+    <!-- Scripts -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.0/knockout-min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout.mapping/2.3.4/knockout.mapping.js"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/knockout.bindings.orderable.js') }}"></script>
+    @yield('extra-scripts')
+    <!-- /Scripts -->
   </body>
 </html>

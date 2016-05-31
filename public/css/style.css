@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+}
+.center{
+  text-align:center;
+}
+th a {
+	display: block;
+}
+.desc {
+	background: url(../img/desc.png) top right no-repeat;
+}
+
+.asc {
+	background: url(../img/asc.png) top right no-repeat;
+}
